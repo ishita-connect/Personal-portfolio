@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishita's Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="Left" style="font-family: Calibri;color:ghostwhite; font-size:18px;"><b>Portfolio</b></div>
+        <div class="Right">
+            <ul style="list-style: none;">
+                <li><a href="#1">Home</a></li>
+                <li><a href="#2">About</a></li>
+                <li><a href="#3">Projects</a></li>
+                <li><a href="#4">Skills</a></li>
+                <li><a href="#5">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="main-section">
+        <div class="hero" id="1">
+            <div class="intro">
+                <div class="greeting" style="font-size: 30px;">Hey there, it's</div>
+                <div class="name" style="font-size: 70px; color: rgb(130, 255, 205);">Ishita Paul</div>
+                <div class="Iam" style="display: flex;">
+                    <p style="font-size: 30px; height: 12px; color:rgb(196, 207, 204);">I am an <span id="element"
+                            style="font-family: Platypi;font-size: 30px; color:rgb(166, 236, 213)"></span> </p>
+                </div>
+                <div class="passion" style="height: 12px;font-size:30px;color:rgba(196,207,204);">creating impactful
+                    projects <br>through data</div>
+            </div>
+
+            <div style="margin-top: 55px;">
+                <img src="ishita3.png" class="image">
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+
+        var typed = new Typed('#element', {
+            strings: ['<i>ML</i> enthusiast'],
+            typeSpeed: 70,
+            loop: true
+        });
+    </script>
+    <section class="second" id="2">
+        <div class="title">
+            <div class="whoami">Who am I?</div>
+            <div class="line"></div>
+        </div>
+
+        <div class="about1">
+            <div class="verticalline"></div>
+            <div class="about">
+                Hey there! I’m a 3rd year B.Tech CSE (AI & ML) student with a passion for
+                building cool things with machine learning. I’m always exploring new tools,
+                learning new tech, and challenging myself to create innovative
+                projects.
+
+                Calm under pressure, creative by nature, and a solid team player — I love working with
+                others to turn ideas into real solutions. Whether it’s experimenting with models or
+                diving into new frameworks, I’m all about growing and making an impact through tech.
+            </div>
+        </div>
+    </section>
+    <section class="third" id="3">
+        <div class="title3">
+            <div class="whativemade">What I've made</div>
+            <div class="line"></div>
+        </div>
+        <div class="projects1">
+            <div class="verticalline2"></div>
+            <div class="projects">
+                <div class="mnistproj">
+                    <div class="card">
+                        <img src="mnist.webp" alt="Project Image">
+                        <h3>Handwritten digit recognition</h3>
+                        <p>A deep learning model trained to recognize handwritten digits (0–9) using the MNIST dataset.
+                        </p>
+                        <a href="#" class="btn">View Project</a>
+
+                    </div>
+                    <div class="mnist">
+                        <h2>MNIST Digit Classifier</h2>
+                        A Convolutional Neural Network (CNN) model trained on the MNIST dataset to accurately
+                        classify handwritten digits from 0 to 9. Built using TensorFlow/Keras, the model achieves
+                        high accuracy and demonstrates the power of deep learning for image classification tasks.
+                    </div>
+                </div>
+                <div class="portfolioproj">
+                    <div class="portfolio">
+                        <h2>Personal portfolio website</h2>
+                        A responsive and interactive personal portfolio website built using HTML,
+                        CSS, and JavaScript. It showcases my projects, skills, and contact info with a clean
+                        and modern design.Designed to reflect my personality and technical skills while
+                        being user-friendly across all devices.
+                    </div>
+
+                    <div class="card">
+                        <img src="portfolio.jpg" style="height: 200px;">
+                        <h3>Portfolio Website</h3>
+                        <p>A personal portfolio website</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="fakenewsproj">
+                    <div class="card">
+                        <img src="fakenews.jpg" style="height:200px;" alt="Project Image">
+                        <h3>Fake News Detection</h3>
+                        <p>Detecting misinformation in online news using natural language processing and machine
+                            learning.</p>
+                        <a href="#" class="btn">View Project</a>
+
+                    </div>
+                    <div class="fakenews">
+                        <h2>Fake News Detection</h2>
+                        Built a machine learning model to classify news articles as real or fake
+                        using natural language processing techniques. Preprocessed text data, vectorized
+                        using TF-IDF, and trained a Passive Aggressive Classifier to achieve high accuracy.
+                        Evaluated the model with confusion matrix and accuracy score.
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="third" id="4">
+        <div class="title4">
+            <div class="myskillstack">My Skill stack</div>
+            <div class="line"></div>
+        </div>
+
+        <div class="skills1">
+            <div class="verticalline3"></div>
+            <div class="skills">
+                <div class="Java">
+                    <a href="/" class="btn2">JAVA</a>
+                </div>
+                <div class="Python">
+                    <a href="/" class="btn2">PYTHON</a>
+                </div>
+                <div class="C">
+                    <a href="/" class="btn2">C(Programming language)</a>
+                </div>
+                <div class="html">
+                    <a href="/" class="btn2">HTML</a>
+                </div>
+                <div class="css">
+                    <a href="/" class="btn2">CSS</a>
+                </div>
+                <div class="scikit">
+                    <a href="/" class="btn2">Scikit-learn</a>
+                </div>
+                <div class="Tensor">
+                    <a href="/" class="btn2">TensorFlow</a>
+                </div>
+                <div class="numpy">
+                    <a href="/" class="btn2">NumPy</a>
+                </div>
+                <div class="Windows">
+                    <a href="/" class="btn2">WINDOWS</a>
+                </div>
+                <div class="Linux">
+                    <a href="/" class="btn2">LINUX</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fourth" id="5">
+        <div class="title5">
+            <div class="contactme">Contact Me</div>
+            <div class="line"></div>
+        </div>
+
+        <div class="contact1">
+            <div class="verticalline4"></div>
+            <div class="contact2">
+                <div class="contactdetails">
+                    <h3 style="display: flex;gap: 10px;"><img src="gmail.png"
+                            style="width: 30px; background-color:aliceblue; border-radius:20px;"><a
+                            href="mailto:ishita.paul.connect@gmail.com" style="text-decoration:none; color:#ccc">
+                            ishita.paul.connect@gmail.com</a></h3>
+                    <h3 style="display: flex;gap: 10px;"><img src="phone.png"
+                    style="width: 30px; background-color:aliceblue; border-radius:20px;">+917439255567</h3>
+                    <h3 style="display: flex;gap: 10px;"><img src="loc.png"
+                        style="width: 30px; background-color:aliceblue; border-radius:20px;">Kolkata,India</h3>
+                </div>
+                <div class="contact">
+                    <form action="mailto:ishita.paul.connect@gmail.com" method="post" enctype="text/plain">
+                        <input type="text" name="name" placeholder="Your Name" required
+                            style="background-color: aliceblue;">
+                        <input type="email" name="email" placeholder="Your Email" required
+                            style="background-color: aliceblue;">
+                        <textarea name="message" placeholder="Your Message" rows="5" required
+                            style="background-color: aliceblue;"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Ishita Paul. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="mailto:yourname@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
